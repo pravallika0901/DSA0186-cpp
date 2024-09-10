@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    double num;
+    cout<<"Enter a floating-point number: ";
+    cin>>num;
+    cout<<"The number rounded down using floor(): "<<floor(num)<<endl;
+    cout<<"The number rounded up using ceil(): "<<ceil(num)<<endl;
+    return 0;
+}
