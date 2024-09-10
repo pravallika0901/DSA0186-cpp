@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int a,b,c,n;
+	cout<<"enter the number:";
+	cin>>a;
+	int temp=a;
+		while(a>0){
+		n=a%10;
+		b=b*c+n;
+		c=10;
+		a=a/10;
+	}
+	cout<<"the reverse of the number:"<<b<<"\n";
+	if(temp==b){
+		cout<<"the number is paLindrone";
+	}
+	else{
+		cout<<"the number is not palindrome";
+	}
+	return 0;
+}
